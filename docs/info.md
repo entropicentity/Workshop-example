@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This is a simple AND gate, In0 and In1 are the two inputs, Out0 is the output.
+It takes inputs 0-2 and does either a 3 input OR or a 3 input AND operation, returning the output to the output pin. When the Config pin is high, it functions as an AND gate, and when the Config pin is Low, it functions as an OR gate.
 
 ## How to test
 
-Connect two input signals to In0 and In1, then test the truth table of the output Out0 to confirm it is the output of an AND gate
+Connect the three inputs and config pin to configurable digital inputs. Connect the output to an LED or other electronic component that indicates the status of the output signal.
 
 ## External hardware
 
-Any output that takes either a High or Low Signal, like an LED.
+Any output that takes either a High or Low Signal, like an LED. Some way to generate 4 digital signals, either buttons and resistors, or a devboard.
