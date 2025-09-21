@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a simple AND gate, In0 and In1 are the two inputs, Out0 is the output.
 
 ## How to test
 
-Explain how to use your project
+Connect two input signals to In0 and In1, then test the truth table of the output Out0 to confirm it is the output of an AND gate
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Any output that takes either a High or Low Signal, like an LED.
